@@ -32,7 +32,7 @@ const Countdown = () => {
         <div className='countdownWrapper'>
             <div className='countdownBox'>
                 <div className='countdownTimer'>
-                    <h1>Countdown</h1>
+                    <span className='heading'>Countdown</span>
                     <div className='countdownTime'>{formatTime()}</div>
                 </div>
             </div>
