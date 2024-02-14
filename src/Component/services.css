@@ -1,0 +1,45 @@
+.outer-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 70vh; /* Set height as needed */
+    /* background-color: pink; */
+
+}
+
+.box-container {
+    border-radius: 10px ; /* Border for the box */
+    padding: 20px; /* Adjust padding as needed */
+    background-color: rgb(225, 238, 206);
+    margin-top: 50px;
+}
+
+.why-choose-section {
+    width: 100%; /* Ensure it takes full width inside the box */
+}
+.why-choose-section h2{
+    color: green;
+}
+.reasons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.reason {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px; /* Adjust the margin as needed */
+}
+
+.text {
+    font-weight: 600;
+    color: gray;
+}
+
+.icon {
+    margin-top: 2px; /* Adjust the margin as needed to move the icons slightly below the text */
+    color: green;
+    /* font-size: 50px; */
+}

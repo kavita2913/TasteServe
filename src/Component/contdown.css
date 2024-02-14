@@ -1,0 +1,25 @@
+.countdownWrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* height: 100vh; */
+    /* margin-bottom: 250px; */
+}
+
+.countdownBox {
+    border: 2px solid #ccc; /* Add a border as per your preference */
+    padding: 20px; /* Adjust padding as needed */
+    border-radius: 20px;
+    width: 50%;
+    background-color:rgb(255, 153, 0);
+}
+
+.countdownTimer {
+    text-align: center;
+    font-size: 2em;
+    color: green;
+}
+
+.countdownTime {
+    font-size: 2em;
+}
